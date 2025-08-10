@@ -150,11 +150,13 @@ h6 {
     transition: all 300ms ease-in-out;
     border-radius: .4rem;
     overflow: hidden;
-    display: flex; /* Transforma o card em um container flex */
-    flex-direction: column; /* Faz os filhos ficarem em coluna */
+    display: flex;
+    /* Transforma o card em um container flex */
+    flex-direction: column;
+    /* Faz os filhos ficarem em coluna */
 }
 
-.recipe img{
+.recipe img {
     max-width: 100%;
 }
 
@@ -166,6 +168,11 @@ h6 {
 .recipe-list-item:hover {
     transform: scale(1.02);
     box-shadow: -8px 8px 18px rgba(0, 0, 0, .3);
+}
+
+.recipe-title-container a {
+    text-decoration: none;
+    color: var(--color-primary-dark);
 }
 
 .recipe-title-container {
@@ -223,7 +230,8 @@ h6 {
     text-align: center;
     padding: 1.5rem var(--spacing-gutter-medium);
     transition: all 300ms ease-in-out;
-    margin-top: auto; /* Empurra o rodapé para o final do card */
+    margin-top: auto;
+    /* Empurra o rodapé para o final do card */
 }
 
 .recipe-footer a:hover {
